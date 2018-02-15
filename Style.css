@@ -1,0 +1,112 @@
+body
+{
+	padding-bottom: 570px;
+}
+
+#navItem
+{
+	color: #3CA0EC;
+	text-decoration: none;
+}
+
+#navCont
+{
+	height: 50px;
+	background-color: #BCBCBC;
+}
+
+#navHead
+{
+	background-color: #F5F5F5;
+	color:#3CA0EC;
+	text-decoration: none;
+	margin:0px;	
+}
+
+.icon-bar
+{
+	background-color: #3CA0EC;
+}
+
+#banner
+{
+	height: 260px;
+	background-image: url("Images/banner6.png");
+}
+
+#bannerCol
+{
+	padding-bottom: 92px;
+}
+
+#navHead:hover
+{
+	color: #F07E82;
+	background-color: #F5F5F5;
+}
+
+#navItem:hover
+{
+	color: #F07E82;
+	background-color: #F5F5F5;
+}
+
+#bannerText
+{
+	color:white;
+	margin-top: 55px;
+	font-weight: 600;
+}
+
+#backStripe
+{
+	height: 260px;
+	background-image: url("Images/banner6.png");
+}
+
+#buttonTemp
+{
+	border: none;
+	margin-top: 25px;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #3CA0EC;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: .3s;
+    width: 220px;
+}
+
+#buttonTemp:hover
+{
+	transform: scale(1.1,1.1);
+}
+
+#productos
+{
+	width: 300px;
+	height: 180px;
+	margin-top: 20px;
+	transition: .3s;
+	margin-bottom: 10px;
+	border: 2px solid #F07E82;
+	border-radius: 5px;
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,.3);
+}
+
+#productos:hover
+{
+	transform: scale(1.1,1.1);
+}
+
+#productosTags
+{
+	margin-top: 30px;
+	color:#3CA0EC;
+	font-weight: 600;
+	font-size: 21pt;
+}
