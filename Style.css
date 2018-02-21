@@ -9,6 +9,7 @@
 {
 	height: 50px;
 	background-color: #BCBCBC;
+
 }
 
 #navHead
@@ -112,4 +113,20 @@
 	color:#3CA0EC;
 	font-weight: 600;
 	font-size: 21pt;
+}
+
+#contactHeading
+{
+	margin-top: 30px;
+}
+
+#imageContactUs
+{
+	margin-top: 20px;
+	width: 80px;
+}
+
+#anchor
+{
+	color: black;
 }
