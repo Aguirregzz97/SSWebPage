@@ -5,6 +5,11 @@
 	text-decoration: none;
 }
 
+#marginTop
+{
+	margin-top: 40px;
+}
+
 #navCont
 {
 	height: 50px;
@@ -31,6 +36,37 @@
 	background-image: url("Images/banner6.png");
 }
 
+#bannerPay
+{
+	height: 180px;
+	background-image: url("Images/payBanner.jpg");
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#bannerEmpanadas
+{
+	height: 180px;
+	background-image: url("Images/empanadasBanner.png");
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#bannerManzanas
+{
+	height: 180px;
+	background-image: url("Images/manzanaBanner.jpg");
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#pinkBack
+{
+	background-image: url("Images/banner6.png");
+}
+
+
+
 #bannerCol
 {
 	padding-bottom: 92px;
@@ -48,6 +84,11 @@
 	background-color: #F5F5F5;
 }
 
+#pinkBackCol
+{
+	background-color: #F07E82;
+}
+
 
 #bannerText
 {
@@ -62,10 +103,17 @@
 	background-image: url("Images/banner6.png");
 }
 
-#whiteTexture
+#whiteBack
 {
 	background-image: url("Images/whiteTexture.jpg");
-	padding-bottom: 40px;
+	padding-bottom: 100px;
+}
+
+#whiteBackS
+{
+	background-image: url("Images/whiteTexture.jpg");
+	padding-bottom: 50px;
+	padding-top: 40px; 
 }
 
 #buttonTemp
@@ -85,6 +133,28 @@
     width: 220px;
 }
 
+#buttonCont
+{
+	border: none;
+	font-size: 18px;
+	margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #3CA0EC;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: .3s;
+    width: 200px;
+}
+
+#buttonCont:hover
+{
+	transform: scale(1.1,1.1);
+}
+
 #buttonTemp:hover
 {
 	transform: scale(1.1,1.1);
@@ -92,8 +162,8 @@
 
 #productos
 {
-	width: 300px;
-	height: 180px;
+	width: 320px;
+	height: 250px;
 	margin-top: 20px;
 	transition: .3s;
 	margin-bottom: 10px;
@@ -115,18 +185,66 @@
 	font-size: 21pt;
 }
 
+#productosTagsP
+{
+	margin-top: 10px;
+	color:#3CA0EC;
+	font-weight: 600;
+	font-size: 21pt;
+}
+
+#productosTags2
+{
+	margin-top: 50px;
+	color:#3CA0EC;
+	font-weight: 600;
+	font-size: 26pt;
+}
+
 #contactHeading
 {
 	margin-top: 30px;
 }
 
+#payImages
+{
+	width: 280px;
+	border: 2px solid rgba(0, 0, 0, .5);
+	border-radius: 2px;
+}
+
+#productosHeadings
+{
+	font-weight: 550;
+}
+
+#prices
+{
+	opacity: .8;
+}
+
 #imageContactUs
 {
 	margin-top: 20px;
-	width: 80px;
+	width: 90px;
 }
-
 #anchor
 {
 	color: black;
+}
+
+#descriptions
+{
+	margin-top: 40px;
+	color:#F07E82;
+	font-weight: 600;
+	font-size: 15pt;
+
+}
+
+#imageCar
+{
+	height: 500px;
+	width: 1140px;;
+	
 }
